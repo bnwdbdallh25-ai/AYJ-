@@ -20,11 +20,11 @@ nav a.on,nav a:hover{background:var(--navy2);color:var(--gold)}
 main{max-width:980px;margin:0 auto;padding:18px 14px}
 .hero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;border-radius:18px;padding:34px 20px;text-align:center;border-bottom:4px solid var(--gold)}
 .hero h1{margin:8px 0;font-size:26px}.hero p{color:#d6dcea;max-width:600px;margin:8px auto 18px}
-.btn{display:inline-block;background:var(--gold);color:var(--navy);border:0;border-radius:10px;padding:11px 20px;font-weight:700;text-decoration:none;cursor:pointer;font-size:15px;margin:4px}
+.btn{display:inline-block;background:var(--gold);color:var(--navy);border:0;border-radius:10px;padding:11px 20px;font-weight:700;text-decoration:nonrgin:4px}
 .btn.o{background:none;border:1px solid var(--gold);color:var(--gold)}
 h2{color:var(--navy);border-inline-start:5px solid var(--gold);padding-inline-start:10px;margin:28px 0 12px}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]) h2{color:var(--gold)}}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr:12px}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px}
 .card h3{margin:0 0 6px;color:var(--text)}.price{color:var(--gold);font-weight:700}
 .note{background:var(--card);border:1px dashed var(--gold);border-radius:12px;padding:12px;color:var(--mut)}
